@@ -1,8 +1,8 @@
 # Sable
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sable`. To experiment with that code, run `bin/console` for an interactive prompt.
+Library for parallel multithreading parsing.
 
-TODO: Delete this and the text above, and describe your gem
+`*` *Sable is a small Siberian animal with valuable fur*
 
 ## Installation
 
@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+Sable::Scraper.new.scrap list_of_links do
+  # write code for extract data from page with Nokogiri
+end
+```
 
 ## Development
 
